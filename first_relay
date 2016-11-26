@@ -1,6 +1,0 @@
-import CHIP_IO.GPIO as GPIO
-pin = "CSID1"
-GPIO.setup(pin.pin, GPIO.OUT)
-GPIO.output(pin.pin, GPIO.HIGH)
-GPIO.cleanup()
-
